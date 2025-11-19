@@ -9,7 +9,7 @@ export function getConfig(env) {
         githubURL: env.GITHUB_URL || 'https://github.com/yutian81/domain-check',
         blogURL: env.BLOG_URL || 'https://blog.notett.com/post/2025/11/251118-domain-check/',
         blogName: env.BLOG_NAME || 'QingYun Blog',
-        password: env.PASSWORD || "123123",
+        password: env.PASSWORD || "wsad55245520",
         days: Number(env.DAYS || 30), // 用于前端即将到期判断
         tgid: env.TGID || env.TG_CHAT_ID,
         tgtoken: env.TGTOKEN || env.TG_BOT_TOKEN,
